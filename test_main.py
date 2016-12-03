@@ -7,4 +7,4 @@ def test_soma():
 	assert res.data == b"13"
 
 	res = app.get("/soma/5/2")
-	assert res.data == b"7"
+	assert res.data == b"42"
